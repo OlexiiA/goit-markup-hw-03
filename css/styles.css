@@ -40,8 +40,7 @@ img {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-
-    
+  
 }
 
 a {text-decoration: none;}
@@ -59,8 +58,6 @@ a {text-decoration: none;}
 .span-studio {
     color: #000000;
 }
-
-
 
 .header-list {
     display: flex;
@@ -446,12 +443,10 @@ hr {
     margin-left: 50px;
 }
 
-
 /* Btn-portfolio-section */
 
 .btn-section {
     padding: 95px 0;
-
 }
 
 .btn-box {
