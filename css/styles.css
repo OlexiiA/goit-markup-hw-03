@@ -61,7 +61,7 @@ a {text-decoration: none;}
 
 .header-list {
     display: flex;
-    padding-left: 93px;
+    margin-left: 93px;
 }
 
 .header-list-item:not(:last-child) {
@@ -125,6 +125,11 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--p-color);
+}
+.header-contact,
+.header-mail {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .header-contact {
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -234,7 +239,7 @@ padding-right: 0px;
  /*  Команда WebStudio */
 
  .section-team {
-    padding-top: 94px;
+    padding: 94px 0;
     background: #F5F4FA;
  }
 
@@ -247,8 +252,7 @@ border-radius: 0px 0px 4px 4px;
 
 .team-list {
     margin-right: 30px;
-    margin-top: 50px;
-    margin-bottom: 94px;
+    
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -271,6 +275,7 @@ border-radius: 0px 0px 4px 4px;
 
 .section-activities {
     padding-top: 0px;
+    padding-bottom: 94px;
 }
 
 .under-title {
@@ -287,7 +292,7 @@ border-radius: 0px 0px 4px 4px;
 
 .img-list {
 margin-right: 30px;
-padding-bottom: 94px;
+
 }
 .img-list:last-child {
     margin-right: 0px;
@@ -442,13 +447,13 @@ hr {
 /* Btn-portfolio-section */
 
 .btn-section {
-    padding: 95px 0;
+    padding: 94px 0;
 }
 
 .btn-box {
     display: flex;
     justify-content: center;  
-    padding-bottom: 34px;
+    margin-bottom: 50px;
 }
 
 .list-btn {
@@ -462,10 +467,12 @@ display: flex;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: -30px;
 }
 
 .img-box-list {
     display: contents;
+    
 }
 
 .card-img {
